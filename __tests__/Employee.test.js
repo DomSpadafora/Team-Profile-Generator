@@ -11,22 +11,22 @@ test('Can instantiate Employee instance with constructor values', () => {
 });
 
 
-test('Can get name via constructor arguments', () => {
+test('Can get name via getName method', () => {
     const employee = new Employee('John', '45689', 'johndoe@gmail.com');
     expect(employee.getName()).toBe('John')    
 });
 
-test('Can get id via constructor arguments', () => {
+test('Can get id via getId method', () => {
     const employee = new Employee('John', '45689', 'johndoe@gmail.com');
     expect(employee.getId()).toBe('45689')    
 });
 
-test('Can get email via constructor arguments', () => {
+test('Can get email via getEmail method', () => {
     const employee = new Employee('John', '45689', 'johndoe@gmail.com');
     expect(employee.getEmail()).toBe('johndoe@gmail.com')    
 });
 
-test('Can get the employee role via constructor arguments', () => {
+test('Can get the employee role via getEmployee method', () => {
     const employee = new Employee('John', '45689', 'johndoe@gmail.com');
     expect(employee.getEmployee()).toBe('Employee')    
 });
