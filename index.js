@@ -2,10 +2,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
 const path = require('path')
-const manager  = require('./lib/Manager');
-const engineer = require('./lib/Engineer');
-const intern = require('./lib/Intern');
-const employee = require('./lib/Employee');
+const Manager  = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+const Employee = require('./lib/Employee');
 const { validateHeaderName } = require('http');
 
 //add team members empty array
