@@ -20,7 +20,7 @@ function writeHTML(responses) {
             <div class="card">
                 <h1>${emp.getName()}</h1>
                 <h2>Manager</h2><i class="material-icons">content_paste</i>
-                <h4>ID: ${emp.getId}<H4>
+                <h4>ID: ${emp.id}<H4>
                 <h4>Email: <a href="mailto:${emp.email}">${emp.email}</a></h4>
                 <h4>Office Number: ${emp.getOfficeNumber()}</h4>
             </div>` :
@@ -29,17 +29,17 @@ function writeHTML(responses) {
             <div class="card">
                 <h1>${emp.getName()}</h1>
                 <h2>Engineer</h2><i class="material-icons">laptop_mac</i>
-                <h4>ID: ${emp.getId}<H4>
-                <h4>Email: ${emp.getEmail()}</h4>
-                <h4>Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></h4>
+                <h4>ID: ${emp.id}<H4>
+                <h4>Email: <a href="mailto:${emp.email}">${emp.email}</a></h4>
+                <h4>Github: <a href="https://github.com/${emp.github}">${emp.github}</a></h4>
             </div>` :
         
         output +=`
             <div class="card">
                 <h1>${emp.getName()}</h1>
                 <h2>Intern</h2><i class="material-icons">assignment_ind</i>
-                <h4>ID: ${emp.getId}<H4>
-                <h4>Email: ${emp.getEmail()}</h4>
+                <h4>ID: ${emp.id}<H4>
+                <h4>Email: <a href="mailto:${emp.email}">${emp.email}</a></h4>
                 <h4>School: ${emp.getSchool()}</h4>
             </div>`;
     });
