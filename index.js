@@ -6,7 +6,7 @@ const Manager  = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Employee = require('./lib/Employee');
-const { validateHeaderName } = require('http');
+const writeHTML = require('./src/page-template');
 
 //add team members empty array
 const teamMembers = [];
@@ -124,7 +124,7 @@ const internQuestions = () => {
         },
     ]).then(responses => {
         const intern = new Intern(responses.name, responses.id, responses.email, responses.school)
-        teamMembers.push(engineer);
+        teamMembers.push(intern);
         addTeamMember()
 
     })
