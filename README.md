@@ -18,7 +18,9 @@
   New user will need to clone the repository from Github and then download node. You will also need to install NPM Inquirer to use the application. 
 
   ## Usage
-  Use inquirer from the command line to begin entering in questions that are prompted. Once all members of your team have been entered, select the finish building my team prompt. Below is a screen shot of the final product. Please clink on this link to view a walk through video. 
+  Use inquirer from the command line to begin entering in questions that are prompted. Once all members of your team have been entered, select the finish building my team prompt. Below is a screen shot of the final product. Please click on the demo link to view a walk through video. [Video Demonstration](https://drive.google.com/file/d/1SHlodGhotl7OLmtfN61W94doD-zvYFUg/view)
+
+  ![alt text](./dist/images/Screenshot%20of%20Profile%20Generator.PNG)
 
   ## License 
   This project is licensed under the MIT license.
