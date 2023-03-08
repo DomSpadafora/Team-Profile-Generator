@@ -21,6 +21,7 @@
   Use inquirer from the command line to begin entering in questions that are prompted. Once all members of your team have been entered, select the finish building my team prompt. Below is a screen shot of the final product. Please click on the demo link to view a walk through video. [Video Demonstration](https://drive.google.com/file/d/1SHlodGhotl7OLmtfN61W94doD-zvYFUg/view)
 
   ![Final Product](./images/Screenshot.PNG)
+  ![Final Product](./images/NannysDiary.PNG)
 
   ## License 
   This project is licensed under the MIT license.
